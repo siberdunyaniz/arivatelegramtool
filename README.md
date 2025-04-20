@@ -32,8 +32,8 @@
 ### Kurulum Adımları
 1. **Depoyu Klonlayın**:
    ```bash
-   git clone https://github.com/kullanici_adi/ariva-eposta-sikayet-araci.git
-   cd ariva-eposta-sikayet-araci
+   git clone https://github.com/siberdunyaniz/arivatelegramtool.git
+   cd arivatelegramtool
    ```
 
 2. **Gerekli Kütüphaneleri Yükleyin**:
@@ -51,7 +51,7 @@
 
 1. **Aracı Çalıştırın**:
    ```bash
-   python ariva_tool.py
+   python arivatool.py
    ```
 
 2. **Menü Seçenekleri**:
