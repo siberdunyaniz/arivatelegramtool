@@ -88,43 +88,43 @@
 Aracın çalışması için aşağıdaki değişkenleri tanımlamanız gerekir. Örnek yapılandırma:
 
 ```python
-# E-posta gönderici bilgileri
+
 senders = {
     "ornek1@gmail.com": "sifre123",
     "ornek2@yahoo.com": "sifre456"
 }
 
-# Alıcı e-posta adresleri
+
 recipients = [
     "destek@telegram.org",
     "abuse@telegram.org"
 ]
 
-# Telefon numaraları (şikayet için)
+
 phones = [
     "+905551234567",
     "+905559876543"
 ]
 
-# Şikayet formu için e-posta adresleri
+
 site_emails = [
     "ornek1@ornek.com",
     "ornek2@ornek.com"
 ]
 
-# Proxy listesi
+
 proxies = [
     "http://proxy1:port",
     "http://proxy2:port"
 ]
 
-# User-Agent listesi
+
 user_agents = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, gibi Gecko) Chrome/91.0.4472.124 Safari/537.36",
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, gibi Gecko) Version/14.0 Safari/605.1.15"
 ]
 
-# SMTP sunucuları
+
 smtp_servers = {
     "gmail.com": ("smtp.gmail.com", 587),
     "yahoo.com": ("smtp.mail.yahoo.com", 587)
